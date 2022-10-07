@@ -52,7 +52,7 @@ This is the act of replicating your remote repository into your local computer i
 
 _**Methods**_
 - Go to the main page of the intended remote repository and click on clone.
-![Cloning icon](content://media/external/downloads/187216)
+![Cloning icon](https://www.howtogeek.com/wp-content/uploads/2019/12/Copy-repo-URL-to-clipboard.png?trim=1,1&bg-color=000&pad=1,1)
 Image got from [here](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.howtogeek.com%2Fwp-content%2Fuploads%2F2019%2F12%2FCopy-repo-URL-to-clipboard.png%3Ftrim%3D1%2C1%26bg-color%3D000%26pad%3D1%2C1&imgrefurl=https%3A%2F%2Fwww.howtogeek.com%2F451360%2Fhow-to-clone-a-github-repository%2F&tbnid=DUoRFB_IavhobM&vet=12ahUKEwif6ofvr8v6AhXuTUEAHZGKCaIQMygAegUIARC_AQ..i&docid=BUvka7a_6Bu-hM&w=487&h=319&q=procedure%20to%20clone%20a%20file%20on%20GitHub&client=ms-android-transsion&ved=2ahUKEwif6ofvr8v6AhXuTUEAHZGKCaIQMygAegUIARC_AQ)
 
 -  A URL will be shown and you will copy it.

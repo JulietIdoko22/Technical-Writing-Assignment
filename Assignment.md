@@ -149,4 +149,6 @@ Image got from [here](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.tec
 There is a great similarity and little divergence extant between Windows Command Line with GitHub Command Line. 
 
 ## Conclusion
-A basic knowledge of git and GitHub marks a great beginning to the journey of a programmer. Also, a mastery of the connectivity between the two and their syntax aids your smooth glide to the art of coding. However, other forms of writing like blog posts, literary writings, journal articles, digital marketing, etc, can be included among the benefits ascribed to the two modern technology creations.
+A basic knowledge of git and GitHub marks a great beginning to the journey of a programmer. Also, a mastery of the connectivity between the two and their syntax aids your smooth glide to the art of coding. However, other forms of writing like blog posts, literary writings, journal articles, digital marketing, etc, can be included among the benefits ascribed to the two modern technology creations. 
+
+LINKS TO RELEVANT SOURCES

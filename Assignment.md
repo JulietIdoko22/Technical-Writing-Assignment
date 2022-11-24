@@ -45,7 +45,7 @@ From the foregoing, one can simply deduce that there are differences between git
 |  git is more private and specific to a developer | GitHub is a connecting ground for multiple developers' projects|
 | Git is restrictive of collaborations | Acode that is been built by a developer is known to him alone until made accessible in the cloud hoster which is GitHub |
 
-We just finished with the theoretical aspect of this lesson. Now, we are going into the technical part. But before then, you need to get yourself ready by getting these resources:
+We have finished with the theoretical aspect of this lesson. Now, we are going into the technical part. But before then, you need to get yourself ready by getting these resources:
 
 [Register for a GitHub accunt](GitHub.com)
 

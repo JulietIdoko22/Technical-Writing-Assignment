@@ -51,9 +51,14 @@ We just finished with the theoretical aspect of this lesson. Now, we are going i
 
 [Visual Studio Code](https://code.visualstudio.com/download) or VSCODE for short.
 
+[VS CODE]{![VS CODE](https://user-images.githubusercontent.com/113628909/203707823-b988aa8b-fcc9-4bb2-b021-fd2604dcb4b0.PNG)}
+
 [Git](https://github.com/git-for-windows/git/releases/download/v2.38.1.windows.1/Git-2.38.1-64-bit.exe) for Windows
 
 Inside the VSCODE, navivgate to the last icon at the drop down menu by your left. There, you can get the [Msrkdown All in OneExtension](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) or just type "Markdown All in One Extension" in the search bar and then choose the very first option that pops up.
+
+[Markdown Symbol]{![markdoen](https://user-images.githubusercontent.com/113628909/203705246-839e4241-e2c2-40d4-b46e-2aa16e616d7e.PNG)
+}
 
 Now, you are the practical aspect of this lesson.
 
@@ -68,6 +73,9 @@ _**Methods**_
 1. Open your GitHub account and navigate to your repositiry of interest
 2. At the left corner is a menu with a "Code" written with a green colour. Click on it
 3. A menu will show with options of HTTPS, SSH or bearing different URL (for the sake of this lesson, we will be making use of the "HTTPS" URL)
+
+![HTTPS](https://user-images.githubusercontent.com/113628909/203716023-89ec7463-727e-4d24-a84f-c5ca05871543.png)
+
 4. Click on the URL of the HTTPS to copy the code
 5.  On your VScode project terminal, type the git clone command (git clone) along with the URL copied). Eg. git clone "URL".  
 
@@ -79,6 +87,8 @@ _**Methods**_
 ###  Command
 
     git clone https://github.com/JulietIdoko22/Technical-Writing-Assignment.git
+
+ ![GIT clone](https://user-images.githubusercontent.com/113628909/203716939-e0afee79-dede-4bf1-8053-a74a19a2b052.PNG)
 
 
 ![Cloning guideline](images/cloneRepo.png)
@@ -97,13 +107,17 @@ This is a command used to save projects or new changes made on a code to the rep
 
 _**How to Commit a File**_
 
-1.  Firstly, add all your changes with this syntax `git add file.txt` or `git add . `
+1. 
+2. 
+![COMMIT 3](https://user-images.githubusercontent.com/113628909/203714368-fd4eaad5-bd86-4300-a409-96b6d9907473.png)
+
+3.  Firstly, add all your changes with this syntax `git add file.txt` or `git add . `
    
    ###  Command
 
     git add .
 
-2.  Then commit the said file by using the command, `git commit -m "commit message"`
+4.  Then commit the said file by using the command, `git commit -m "commit message"`
 
   ###  Command
 
@@ -115,16 +129,13 @@ A Pull request is done in a situation where one who has a "Read me" permission i
 
 **_To Fork a Repo_**
 - On the top right corner of a repo, click on the **FORK** button.
-![Fork a Repo](https://www.earthdatascience.org/images/earth-analytics/git-version-control/githubguides-bootcamp-fork.png)
-Image got from [here](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.earthdatascience.org%2Fimages%2Fearth-analytics%2Fgit-version-control%2Fgithubguides-bootcamp-fork.png&imgrefurl=https%3A%2F%2Fwww.earthdatascience.org%2Fworkshops%2Fintro-version-control-git%2Fabout-forks%2F&tbnid=6bgdQCkyCIPUSM&vet=12ahUKEwjE7qbpp8v6AhWViFwKHUcHDcEQMygLegUIARDYAQ..i&docid=myvoOLO3i-pKTM&w=738&h=148&q=how%20tto%20do%20fork%20on%20github&client=ms-android-transsion&ved=2ahUKEwjE7qbpp8v6AhWViFwKHUcHDcEQMygLegUIARDYAQ)
 
 - A new copy which includes all the copies, branches and commits made on that repo will automatically appear under your own account with a new URL.
 - Finally, the clone is done by using the clone command, git clone "repo URL" on your local terminal.
 - Create a new branch using the command, git checkout -b "branch name."
 - Also generate a new remote repository for the original repo you forked using the command, git remote add upst
 - After making the changes, adding the changes to the branch and commiting it, you also need to create a pull request which will notify the owner of the repository whether to merge your changes or not.
-![Pull Request](https://opensource.com/sites/default/files/uploads/open-a-pull-request_crop.png)
-Image got from [here](https://www.google.com/imgres?imgurl=https%3A%2F%2Fopensource.com%2Fsites%2Fdefault%2Ffiles%2Fuploads%2Fopen-a-pull-request_crop.png&imgrefurl=https%3A%2F%2Fopensource.com%2Farticle%2F19%2F7%2Fcreate-pull-request-github&tbnid=t_p5l3lv2j9sPM&vet=12ahUKEwjVmIu1psv6AhUQiFwKHY78A7YQMygAegUIARDCAQ..i&docid=KNlJ5o_Hzs8hNM&w=650&h=540&q=how%20tto%20do%20a%20Pull%20request%20on%20git&client=ms-android-transsion&ved=2ahUKEwjVmIu1psv6AhUQiFwKHY78A7YQMygAegUIARDCAQ)
+  
 ## GitHub Desktop vs. GitHub CLI
 **GitHub Desktop** means interacting in GitHub using a GUI. This application can aid you to perform most git commands, like pull, push, commit, clone, etc., right from your desktop. Hardly any difference exists between this application and that of the website.
 ![GitHub Desktop Graphics](https://carldesouza.com/wp-content/uploads/2020/03/img_5e72a64e32003.png)

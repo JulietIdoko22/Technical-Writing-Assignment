@@ -64,7 +64,6 @@ Now, you are the practical aspect of this lesson.
 
 These directions shown here mean that they are the resources to be used for the purpose of this article. You are free to explore other text editors too.
 
-
 ## Clone
 Git clone is the act of replicating your remote repository into your local computer in order to easily navigate through both locations. One can either clone his own repository or that of another when he intends making-- contribution to the developer's ongoing project.  It can either be done by downloading the Zip or downloading it with git using https or CSS.
 

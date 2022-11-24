@@ -16,6 +16,8 @@ Greater output and excellent results are more guaranteed theough collaboration a
 
 In this article, we will look at the differences between git and GitHub, why the choice of GitHub, different commands used for git, for instance, git pull, git clone, gitm commit, etc.
 
+yes dear
+
 Git is, however, not the first Version Control System that ever created. There is the **Centralized Version Control** which makes use of a single server or source control considered to be the main repository,. Examples include CVS, SVN, (Subversion) Perfoce, etc. 
 
 Git belongs to the category of the second type of VCS called **Distributed Version Control System.** According to Aditya Sriidhar, this is a system that "has a remote repository which is stored in a server as well as a local repository which is stored in the computer of each developer." It differs from  the Centralized one because the ode being worked on is stored in both a server and also available in the local files of all the developers. 
@@ -151,4 +153,3 @@ There is a great similarity and little divergence extant between Windows Command
 ## Conclusion
 A basic knowledge of git and GitHub marks a great beginning to the journey of a programmer. Also, a mastery of the connectivity between the two and their syntax aids your smooth glide to the art of coding. However, other forms of writing like blog posts, literary writings, journal articles, digital marketing, etc, can be included among the benefits ascribed to the two modern technology creations. 
 
-LINKS TO RELEVANT SOURCES

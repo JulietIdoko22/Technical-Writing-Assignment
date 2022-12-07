@@ -12,13 +12,11 @@
 9. Conclusion
 
 ## Introduction
-Greater output and excellent results are more guaranteed theough collaboration and team playing. Both social media content creators, app developers, web developers,app managers have a need of affiliating and working with others to share ideas so as to give room for more succeeful outputs. Git and GitHub are such avenue that make this possible. Git is a **Version Control System** (VCS) that helps to manage and track code histories through a continuous availability of histories of a code and giving room for the comparison of changes made. GitHub is, then, a medium where different works and projects are deposited for access by visitors.
+Greater output and excellent results are more guaranteed theough collaboration and team playing. Both social media content creators, app developers, web developers,app managers have a need of affiliating and working with others to share ideas so as to give room for more succeeful outputs. Git and GitHub are such avenue that make this possible. Git is a **Version Control System** (VCS) that helps to manage and track code histories through a continuous availability of the creation process of a code and giving room for the comparison of changes made. GitHub is, then, a medium where different works and projects are deposited for access by visitors.
 
-In this article, we will look at the differences between git and GitHub, why the choice of GitHub, different commands used for git, for instance, git pull, git clone, gitm commit, etc.
+Git belongs to the category of the second type of VCS called **Distributed Version Control System** which is different fron the first one called **Centralized Version Control.** It differs from  the Centralized one because the code being worked on is stored in both a server and also available in the local files of all the developers. 
 
-Git is, however, not the first Version Control System that ever created. There is the **Centralized Version Control** which makes use of a single server or source control considered to be the main repository,. Examples include CVS, SVN, (Subversion) Perfoce, etc. 
-
-Git belongs to the category of the second type of VCS called **Distributed Version Control System.** According to Aditya Sriidhar, this is a system that "has a remote repository which is stored in a server as well as a local repository which is stored in the computer of each developer." It differs from  the Centralized one because the ode being worked on is stored in both a server and also available in the local files of all the developers. 
+However, in this article, focus is more on GitHub than git. Nevertheless, we will look at the differences between git and GitHub, different syntaxes and commands used in git, for instance, git pull, git clone, gitm commit, etc.
 
 ## What is GitHub
 
@@ -35,9 +33,6 @@ GitHub is a hosting platform, in cloud, for git actions. It is specifically this
 ## Git vs. GitHub
 From the foregoing, one can simply deduce that there are differences between git and GitHub.
 
-<!-- - A code that is being done by a developer is known to him alone until made accessible to others when sent to the cloud hoster, which is GitHub. -->
-<!-- - There is an important knowledge of git before GitHub can be of any use. This means that learning of the git command line is a prerequisite to an acquaintance with the latter. -->
-
 | Git | GitHub|
 | -------- | --------|
 | Git is not dependant on GitHub |There is need for an important knowledge of git before GitHub can be of any use. |
@@ -51,34 +46,45 @@ We have finished with the theoretical aspect of this lesson. Now, we are going i
 
 [Visual Studio Code](https://code.visualstudio.com/download) or VSCODE for short.
 
-[VS CODE]{![VS CODE](https://user-images.githubusercontent.com/113628909/203707823-b988aa8b-fcc9-4bb2-b021-fd2604dcb4b0.PNG)}
+![VS CODE](images/VS%20CODE.PNG)
 
-[Git](https://github.com/git-for-windows/git/releases/download/v2.38.1.windows.1/Git-2.38.1-64-bit.exe) for Windows
 
-Inside the VSCODE, navivgate to the last icon at the drop down menu by your left. There, you can get the [Msrkdown All in OneExtension](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) or just type "Markdown All in One Extension" in the search bar and then choose the very first option that pops up.
+[Git](https://github.com/git-for-windows/git/releases/download/v2.38.1.windows.1/Git-2.38.1-64-bit.exe) for windows
 
-[Markdown Symbol]{![markdoen](https://user-images.githubusercontent.com/113628909/203705246-839e4241-e2c2-40d4-b46e-2aa16e616d7e.PNG)
-}
+Inside the VSCODE, navivgate to the last icon at the drop down menu by your left. There, you can get the [Msrkdown All in One Extension](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) or just type "Markdown All in One Extension" in the search bar and then choose the very first option that pops up.
+
+![Markdown Image](images/markdoen.PNG)
 
 Now, you are the practical aspect of this lesson.
 
 These directions shown here mean that they are the resources to be used for the purpose of this article. You are free to explore other text editors too.
 
 ## Clone
-Git clone is the act of replicating your remote repository into your local computer in order to easily navigate through both locations. One can either clone his own repository or that of another when he intends making-- contribution to the developer's ongoing project.  It can either be done by downloading the Zip or downloading it with git using https or CSS.
+Git clone is the act of replicating your remote repository into your local computer in order to easily navigate through both locations. One can either clone his own repository or that of another when he intends making contributions to the developer's ongoing project.  It can either be done by downloading the Zip or downloading it with git using https or SSH.
 
 _**Methods**_
 
 1. Open your GitHub account and navigate to your repositiry of interest
 2. At the left corner is a menu with a "Code" written with a green colour. Click on it
-3. A menu will show with options of HTTPS, SSH or bearing different URL (for the sake of this lesson, we will be making use of the "HTTPS" URL)
 
-![HTTPS](https://user-images.githubusercontent.com/113628909/203716023-89ec7463-727e-4d24-a84f-c5ca05871543.png)
+![Code icon](images/CODE%2001.png)
 
-4. Click on the URL of the HTTPS to copy the code
-5.  On your VScode project terminal, type the git clone command (git clone) along with the URL copied). Eg. git clone "URL".  
+   
+3. A menu will show with options of HTTPS or SSH and bearing different URL (for the sake of this lesson, we will be making use of the "HTTPS" URL)
 
-3.
+4. Click on the copy icon attached to the HTTPS URL to copy the code.
+
+![clone icon](images/CODE%2002.png)
+
+5.  Open your VS code and navigate to the file menu to create a folder.
+6.  Select that folder, come back to your VS code and create a file
+7.  Then click on "view" and select "Terminal" from the drop down menu
+8.  At the down left corner of your interface, click on the "minus" icon
+9.  Select git Bash from the drop down menu that will show.
+
+![file to minus icon](images/CODE%2003.png)
+
+10. Then, inside the git terminal that will show, type the git clone command (git clone) along with the URL copied).  
 
 ###  Syntax
 
@@ -87,12 +93,9 @@ _**Methods**_
 
     git clone https://github.com/JulietIdoko22/Technical-Writing-Assignment.git
 
- ![GIT clone](https://user-images.githubusercontent.com/113628909/203716939-e0afee79-dede-4bf1-8053-a74a19a2b052.PNG)
-
-
 ![Cloning guideline](images/cloneRepo.png)
 
-4. Cloning successful !!!, but you still have to link your GitHub repository to your computer with the command below .
+ *Cloning successful* !!!. However, you still have to link your GitHub repository to your computer with the command below .
 
 ###  Syntax
 
@@ -100,6 +103,8 @@ _**Methods**_
 ###  Command
 
     git remote add origin https://github.com/JulietIdoko22/Technical-Writing-Assignment.git
+
+    Now you can access your repo locally on you Pc via VS cose
 
 ## Git Commit
 This is a command used to save projects or new changes made on a code to the repository.
@@ -123,19 +128,23 @@ _**How to Commit a File**_
     git commit -m "this is my first commit message"
 
 
-## Pull
-A Pull request is done in a situation where one who has a "Read me" permission intends to contribute to an ongoing project. This means collaborating with changes made In a repository. It is mostly done by forking a repo especially when you have no access to an open source repo. But in a situation where you have an access to the Repository, you can easily send a Pull Request.
+## Git Pull
+A Pull request is done in a situation where one who has a "Read me" permission intends to contribute to an ongoing project. This means collaborating with changes made in another's repository. It is mostly done by forking a repo especially when you have no access to an open source repo. But in a situation where you have an access to the Repository, you can easily send a Pull Request.
 
 **_To Fork a Repo_**
-- On the top right corner of a repo, click on the **FORK** button.
+1. Open the repo that you want to effect your change on.
+2. On the top right corner of the repo, click on the **FORK** button.
+3. A new copy which includes all the copies, branches and commits made on that repo will automatically appear under your own account with a new name and a new URL. You can choose to change the name of your own copy of the repo or opt to leave it exactly as it is.
+4. Click on the create fork button.
 
-- A new copy which includes all the copies, branches and commits made on that repo will automatically appear under your own account with a new URL.
-- Finally, the clone is done by using the clone command, git clone "repo URL" on your local terminal.
-- Create a new branch using the command, git checkout -b "branch name."
-- Also generate a new remote repository for the original repo you forked using the command, git remote add upst
-- After making the changes, adding the changes to the branch and commiting it, you also need to create a pull request which will notify the owner of the repository whether to merge your changes or not.
+![Pull](images/PULL.png)
+
+5. Finally, the clone is done by using the clone command, git clone "repo URL" on your local terminal, which, in this tutorial, is your VS code terminal.
+6. Create a new branch using the command, git checkout -b "branch name."
+7. Also generate a new remote repository for the original repo you forked using the command, git remote add upst.
+8. After making the changes, adding the changes to the branch and commiting it, you also need to create a pull request which will notify the owner of the repository whether to merge your changes or not.
   
-## GitHub Desktop vs. GitHub CLI
+  ## GitHub Desktop vs. GitHub CLI
 **GitHub Desktop** means interacting in GitHub using a GUI. This application can aid you to perform most git commands, like pull, push, commit, clone, etc., right from your desktop. Hardly any difference exists between this application and that of the website.
 ![GitHub Desktop Graphics](https://carldesouza.com/wp-content/uploads/2020/03/img_5e72a64e32003.png)
 Image got from [here ](https://www.google.com/imgres?imgurl=https%3A%2F%2Fcarldesouza.com%2Fwp-content%2Fuploads%2F2020%2F03%2Fimg_5e72a64e32003.png&imgrefurl=https%3A%2F%2Fcarldesouza.com%2Finstalling-and-using-github-desktop-on-windows%2F&tbnid=6hs9h7t1YowPZM&vet=12ahUKEwjTidedssv6AhVYTUEAHZXSCWcQMygDegUIARDjAQ..i&docid=dv9_cJA3RQvdsM&w=1054&h=657&q=github%20desktop&client=ms-android-transsion&ved=2ahUKEwjTidedssv6AhVYTUEAHZXSCWcQMygDegUIARDjAQ)

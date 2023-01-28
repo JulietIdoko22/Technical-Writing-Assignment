@@ -1,18 +1,18 @@
-}#   Introduction to GitHub
+Introduction to GitHub
 
 # Table of Contents
 1. Introduction
 2. What is GitHub
 3. Why GitHub?
 4. Git vs. GitHub
-5. Git Commit
-6. Git Clone
+5. Git Clone
+6. Git Commit
 7. Git Pull 
 8. GitHub Desktop vs. GitHub CLI
 9. Conclusion
 
 ## Introduction
-Greater output and excellent results are more guaranteed theough collaboration and team playing. Both social media content creators, app developers, web developers, app managers have a need of affiliating and working with others to share ideas so as to give room for more succeeful outputs. Git and GitHub are such avenue that make this possible. Git is a **Version Control System** (VCS) that helps to manage and track code histories through a continuous availability of the creation process of a code and giving room for the comparison of changes made. GitHub is, then, a medium where different works and projects are deposited for access by visitors.
+Greater output and excellent results are more guaranteed through collaboration and team playing. Both social media ccontent creators, app developers, web developers, app managers have a need of affiliating and working with others to share ideas so as to give room for more succeeful outputs. Git and GitHub are such avenue that make this possible. Git is a **Version Control System** (VCS) that helps to manage and track code histories through a continuous availability of the creation process of a code and giving room for the comparison of changes made. GitHub is, then, a medium where different works and projects are deposited for access by visitors.
 
 Git belongs to the category of the second type of VCS called **Distributed Version Control System** which is different fron the first one called **Centralized Version Control.** Distributed Version Control differs from  the Centralized one because the code being worked on is stored in both a server and also available in the local files of all the developers. 
 
@@ -42,14 +42,14 @@ Git is not dependant on GitHub |There is need for an important knowledge of git 
 
 We have finished with the theoretical aspect of this lesson. Now, we are going into the technical part. But before then, you need to get yourself ready by getting these resources:
 
-[Register for a GitHub accunt](GitHub.com)
+1. [Register a GitHub account](GitHub.com)
 
-[Visual Studio Code](https://code.visualstudio.com/download) or VSCODE for short.
+2. [Visual Studio Code](https://code.visualstudio.com/download) or VSCODE for short.
 
 ![VS CODE](images/VS%20CODE.PNG)
 
 
-[Git](https://github.com/git-for-windows/git/releases/download/v2.38.1.windows.1/Git-2.38.1-64-bit.exe) for windows
+3. [Git](https://github.com/git-for-windows/git/releases/download/v2.38.1.windows.1/Git-2.38.1-64-bit.exe).
 
 Inside the VSCODE, navivgate to the last icon at the drop down menu by your left. There, you can get the [Msrkdown All in One Extension](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) or just type "Markdown All in One Extension" in the search bar and then choose the very first option that pops up.
 
@@ -64,12 +64,9 @@ Git clone is the act of replicating your remote repository into your local compu
 
 _**Methods**_
 
-1. Open your GitHub account and navigate to your repositiry of interest
-2. At the left corner is a menu with a "Code" written with a green colour. Click on it
-
-![Code icon](images/CODE%2001.png)
-
-   
+1. Open your GitHub account and navigate to your repository of interest.
+2. At the left corner is a menu with a "Code" written with a green colour. Click on it.
+ 
 3. A menu will show with options of HTTPS or SSH and bearing different URL (for the sake of this lesson, we will be making use of the "HTTPS" URL)
 
 4. Click on the copy icon attached to the HTTPS URL to copy the code.
@@ -77,9 +74,9 @@ _**Methods**_
 ![file to minus icon](images/CODE%2003.png)
 
 5.  Open your VS code and navigate to the file menu to create a folder.
-6.  Select that folder, come back to your VS code and create a file
-7.  Then click on "view" located at the topmost part of your interphase, and select "Terminal" from the drop down menu
-8.  At the down left corner of your interface, click on the "minus" icon
+6.  Select that folder, come back to your VS code and create a file.
+7.  Then click on "view" located at the topmost part of your interphase, and select "Terminal" from the drop down menu.
+8.  At the down left corner of your interface, click on the "scroll down" icon after the "plus" icon.
 9.  Select git Bash from the drop down menu that will show.
 10. Then, inside the git terminal that will show, type the git clone command (git clone) along with the URL copied).  
 
@@ -102,7 +99,7 @@ _**Methods**_
     git remote add origin https://github.com/JulietIdoko22/Technical-Writing-Assignment.git
 
    
- Now you can access your repo locally on you Pc via VS cose
+ Now you can access your repo locally on you Pc via VS code
 
 ## Git Commit
 This is a command used to save projects or new changes made on a code to the repository. Before you commit your changes, make sure that you have made the necessary changes on that file. If you are through with your changes, let's get down to committing your changes.
@@ -110,12 +107,12 @@ This is a command used to save projects or new changes made on a code to the rep
 _**How to Commit a File using GitHub CLI**_
 1. Open your VScode
 2. Open the folder where you saved your repository in your local machine. 
-3. At this stage, go through your file and proofread to make sure that all necessary changes and corections have been made
+3. At this stage, go through your file and proofread to make sure that all necessary changes and corrections have been made
 4. click on CTRL+S to save your changes
-5. Navigate to the top lrft corner of the VScode and click on 'view.'
+5. Navigate to the top left corner of the VScode and click on 'view.'
 6. Just like you did when you were cloning your repository, click on terminal from the drop down menu.
 7. Then navigate to the down left corner of your opened repository and click on the sign after the plus sign there.
-8. Select git Bash which will open a git Terminal at the down part of your interface. That is where you will perform your commit commands.
+8. Select git Bash which will open a git Terminal at the down-part side of your interface. That is where you will perform your commit commands.
 9. Open your repositoery using this 
     
     ### Syntax 
@@ -126,7 +123,7 @@ _**How to Commit a File using GitHub CLI**_
 
     cd Technical-Writing-Assignment
 
-10. To chech the status of your repository, use this:
+10. To check the status of your repository, use this:
  ### Syntax
         'git status'
     
@@ -139,12 +136,12 @@ The changes that are ready to be committed will be written in red colour.
 
 11.   Then add all your changes with this:
    ### Syntax
-     `git add file.txt` or `git add . `
+     "git add file.txt" or "git add ." 
    
    ###  Command
 
     git add .
-This will bring the file up for staging
+This will bring the file up for staging.
 1.  You can still choose to check the status of your staged changes by typing, git status as you did before. In this case, all the changes made will be in green colour showing that they are ready to be committed.
 2.  Then commit the said file by using this: 
    ### Syntax
@@ -160,7 +157,7 @@ This is my first commit message
 
 
 ## Git Pull
-A Pull request is done in a situation where one who has a write permission intends to contribute to an ongoing project. This means collaborating with changes made in another's repository. It is mostly done by forking a repo especially when you have no access or write permission to effect changes directly to an open source repo. But, in a situation where you have a write permission to the Repository, you can easily send a Pull Request. 
+A Pull request is done in a situation where one who has a write permission intends to contribute to an ongoing project. This means collaborating with changes made in another's repository. It is mostly done by forking a repo especially when you have no access or write permission to effect changes directly to an open source repo. But in a situation where you have a write permission to the Repository, you can easily send a Pull Request. 
 
 This article will walk you through on how to fork a repository in order to effect changes before sending a Pull Request.
 
@@ -197,7 +194,7 @@ This article will walk you through on how to fork a repository in order to effec
 |git commands have already been inbuilt into the software for you to easily navigate your way around it| You can link your editor and your git username for you to be able to push your commits to myour GitHub account.
 
 ## Conclusion
-A basic knowledge of git and GitHub marks a great beginning to the journey of a programmer. Also, a mastery of the connectivity between the two and their syntax aids your smooth glide to the art of coding. I hope that that this article was really helpul in walking you through the basic knowledge of the use of git and GitHub such as how to clone a repositiry, how to commit changes to a repository and how to make a Pull Request by forking the repository.
+A basic knowledge of git and GitHub marks a great beginning to the journey of a programmer. Also, a mastery of the connectivity between the two and their syntax aids your smooth glide to the art of coding. I hope that this article was really helpful in walking you through the basic knowledge of the use of git and GitHub such as how to clone a repositiry, how to commit changes to a repository and how to make a Pull Request by forking the repository.
 
 
 
